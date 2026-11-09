@@ -16,9 +16,7 @@
     <header>
         <nav class="navbar">
             <a href="#" class="logo">Ahshan</a>
-             <button class="mobile-menu-btn" id="mobileMenuBtn">
-          <i class="fas fa-bars"></i>
-        </button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fa-solid fa-bars"></i></button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -33,7 +31,6 @@
     </header>
 
     <main>
-
         <!-- Hero -->
         <section id="hero" class="hero">
             <div class="hero-content">
@@ -56,7 +53,7 @@
         </section>
 
         <!-- About -->
-        <section>
+        <section id="about">
             <h1 class="section-title">About Me</h1>
 
             <div class="about-content">
@@ -115,13 +112,13 @@
         </section>
 
         <!-- skills & Technologies -->
-        <section>
+        <section id="skills">
             <h1 class="section-title">Skills & Technologies</h1>
             <div class="skill-container">
 
                 <div class="skill-card">
                     <div class="skill-icon"><i class="fa-brands fa-php"></i></div>
-                    <h3>PHP</h3>
+                    <h3>Laravel</h3>
                     <p>
                         <p>PHP is a one of the most important Programming Language</p>
                     </p>
@@ -193,7 +190,7 @@
         </section>
 
         <!-- Experience Timeline -->
-        <section>
+        <section id="experience">
             <h1 class="section-title">Experience Timeline</h1>
 
             <div class="timeline">
@@ -227,7 +224,7 @@
         </section>
 
         <!-- Services Offered -->
-        <section>
+        <section id="services">
             <h1 class="section-title">Services Offered</h1>
 
             <div class="service-container">
@@ -284,7 +281,7 @@
         </section>
 
         <!-- Latest From Blog -->
-        <section class="blog">
+        <section class="blog" id="blog">
             <h1 class="section-title">Latest From Blog</h1>
             <p>Visit blog for tutorials</p>
             <div class="blog-container">
@@ -321,7 +318,7 @@
         </section>
 
         <!-- Get in Touch -->
-        <section>
+        <section id="contact">
             <h1 class="section-title">Get In Touch</h1>
             <div class="contact-container">
 
@@ -399,8 +396,7 @@
     </footer>
 
 
-
-      <script>
+    <script>
         // Mobile menu toggle
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const navLinks = document.getElementById('navLinks');
@@ -422,6 +418,7 @@
 
       
     </script>
+    
 
 </body>
 
